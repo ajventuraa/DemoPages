@@ -9,33 +9,6 @@ body{
     min-height: 100vh;
     background-color:#101820FF;
 }
-.content {
-    max-width: 650px;
-    margin: 300px 100px;
-}
-.model {
-    height: 400px;
-    position: absolute ;
-    bottom: 54px;
-    left:73%;
-    transform: translateX(-73%);
-}
-h2{
-    color: rgb(255, 251, 0);
-    font-size: 75px;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    line-height: 10px;
-    margin-bottom: 100px;
-}
-.content p{
-    color: white;
-    font-size: 18px;
-    font-weight: 500;
-    margin-top: -30px;
-    margin-bottom: 30px;
-}
 header{
     position: absolute;
     top: 0;
@@ -72,25 +45,7 @@ header ul li a{
 header ul li a:hover ,
 header ul li a.active
 {
-    background: rgb(255, 251, 0);
+    background:  rgb(255, 251, 0);
     color: #101820FF;
     transition: 0.5s;
-}
-.media-icons{
- display: flex;
- justify-content: left;
- align-items: left;
-}
-.media-icons a:not(:last-child){
-    margin-right: 80px;
-}
-.media-icons a{
-    position: relative;
-    color: white;
-    font-size: 25px;
-    transition: 0.3s;
-    transition-property: transform;
-}
-.media-icons a:hover{
-    transform: scale(1.5)
 }
