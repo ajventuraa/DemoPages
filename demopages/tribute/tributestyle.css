@@ -49,3 +49,57 @@ header ul li a.active
     color: #101820FF;
     transition: 0.5s;
 }
+.model{
+    height: 400px;
+    position: absolute ;
+    bottom: -290px;
+    left:50%;
+    transform: translateX(-50%);
+}
+.content {
+    text-align: center;
+    margin: 250px 150px;
+}
+h1{
+    color: rgb(255, 251, 0);
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+h2{
+    color:white;
+    font-size: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 7px;
+    margin-bottom: 40px;
+}
+.content p1{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+.contribution p2{
+    top: 2000px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+.contribution{
+    text-align: center;
+    margin: 100px 150px;
+}
+.contribution p3{
+    color: rgb(255, 251, 0);
+}
