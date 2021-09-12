@@ -85,6 +85,9 @@ header ul li a.active
 .card5{
     background-image: url(img/insu.jpg);
 }
+.card6{
+    background-image: url(img/tele.png);
+}
 .card h5{
     color: white;
     text-shadow: 0 0 5px black;
