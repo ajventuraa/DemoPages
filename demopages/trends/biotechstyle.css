@@ -71,14 +71,19 @@ header ul li a.active
     transform: translateY(10px);
 }
 .card1{
-    background-image: url(img/biotech.jpg);
+    background-image: url(img/ultrasound.jpg);
 }
 .card2{
-    background-image: url(img/learntech.png);
+    background-image: url(img/xray.jpg);
 }
 .card3{
-    background-image: url(img/iot.jpg);
-    
+    background-image: url(img/lasik.jpg);
+}
+.card4{
+    background-image: url(img/sphy.jpg);
+}
+.card5{
+    background-image: url(img/insu.jpg);
 }
 .card h5{
     color: white;
@@ -92,7 +97,7 @@ h5{
 h2{
     color: rgb(255, 251, 0);
     text-align: center;
-    font-size: 80px;
+    font-size: 65px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 4px;
@@ -106,5 +111,5 @@ h2{
     margin-top: -30px;
 }
 .content {
-    margin: 200px 0px;
+    margin: 200px 20px;
 }
