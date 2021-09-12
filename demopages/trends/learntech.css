@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#101820FF;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+header .logo{
+    color: rgb(255, 251, 0);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+    background:  rgb(255, 251, 0);
+    color: #101820FF;
+    transition: 0.5s;
+}
+.card{
+    float: left;
+    flex-basis: content;
+    width: 280px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 25px 25px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: 12%;
+    bottom: -10%;
+    transform: translateY(9%);
+    transition: transform(00.5s);
+    text-decoration: none;
+}
+.card:hover{
+    transform: translateY(10px);
+}
+.card1{
+    background-image: url(img/ultrasound.jpg);
+}
+.card2{
+    background-image: url(img/xray.jpg);
+}
+.card3{
+    background-image: url(img/lasik.jpg);
+}
+.card4{
+    background-image: url(img/sphy.jpg);
+}
+.card5{
+    background-image: url(img/insu.jpg);
+}
+.card6{
+    background-image: url(img/tele.png);
+}
+.card h5{
+    color: white;
+    text-shadow: 0 0 10px black;
+}
+h5{
+    text-align: left;
+    color: rgb(0, 0, 0);
+    text-emphasis: 10px;
+}
+h2{
+    color: rgb(255, 251, 0);
+    text-align: center;
+    font-size: 65px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 4px;
+    line-height: 10px;
+    margin-bottom: 50px;
+}
+.content p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: -30px;
+}
+.content {
+    margin: 200px 20px;
+}
