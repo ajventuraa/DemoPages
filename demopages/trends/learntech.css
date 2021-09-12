@@ -72,22 +72,16 @@ header ul li a.active
     transform: translateY(10px);
 }
 .card1{
-    background-image: url(img/ultrasound.jpg);
+    background-image: url(img/phone.jpg);
 }
 .card2{
-    background-image: url(img/xray.jpg);
+    background-image: url(img/pc.jpg);
 }
 .card3{
-    background-image: url(img/lasik.jpg);
+    background-image: url(img/lap.jpg);
 }
 .card4{
-    background-image: url(img/sphy.jpg);
-}
-.card5{
-    background-image: url(img/insu.jpg);
-}
-.card6{
-    background-image: url(img/tele.png);
+    background-image: url(img/printer.jpg);
 }
 .card h5{
     color: white;
