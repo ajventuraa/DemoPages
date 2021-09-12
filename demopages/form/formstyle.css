@@ -49,3 +49,110 @@ header ul li a.active
     color: #101820FF;
     transition: 0.5s;
 }
+.container{
+    width: 310px;
+    height: -20px;
+    border-radius: -5px;
+    text-align: center;
+    padding: 50px 20px 10px 15px;
+}
+.container header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.container .form-outer{
+    width: 200%;
+    overflow: hidden;
+}
+.form-outer form{
+    display: flex;
+    width: 400%;
+}
+.form-outer form .page{
+    width: 25%;
+}
+.form-outer form .page .title{
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+}
+.form-outer form .page .field{
+    left: auto;
+    height: 50px;
+    width: 350px;
+    margin: 100px 100px;
+    position:relative;
+    display: flex;
+}
+.form-outer form .page .field input{
+    height: 100%;
+    width: 100%;
+    border:0.5px black;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+form .page .field select{
+    width: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-outer form .page .field .label{
+    position: absolute;
+    top: -40px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.form-outer form .page .field button{
+    height: 50px;
+    width: 365px;
+    margin-top: -20px;
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+input:checked + label {
+    color:yellow;
+}
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px rgb(32, 31, 32);
+}
+option:checked {
+    box-shadow: 0 0 0 3px rgb(32, 53, 32);
+    color:gold;
+}
+.submit{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black ;
+    border-radius: 20px;
+    border-color: black;
+}
+.model {
+    border-radius: 20px;
+    height: 400px;
+    position: absolute ;
+    bottom: 54px;
+    left:73%;
+    transform: translateX(-73%);
+}
+p{
+    color: white;
+    text-transform: uppercase;
+}
+.model2 {
+    border-radius: 20px;
+    height: 400px;
+    position: absolute ;
+    bottom: -400px;
+    left: 79.5%;
+    transform: translateX(-73%);
+}
