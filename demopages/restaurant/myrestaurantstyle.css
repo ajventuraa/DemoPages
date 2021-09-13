@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-color:#101820FF;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+}
+header .logo{
+    color: rgb(255, 251, 0);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+}
+header ul li a:hover ,
+header ul li a.active
+{
+    background:  rgb(255, 251, 0);
+    color: #101820FF;
+    transition: 0.5s;
+}
+.content{
+    display: grid;
+    margin-left: -10%;
+    margin-right: 15%;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10em;
+}
+.content > div{
+    padding: 1em;  
+}
+.content > div p{
+    text-align: center;
+    font-weight: lighter;
+    padding-bottom: 57px;
+    letter-spacing: 1.5px;
+    color:WHITE;
+}
+.content > div > img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+}
+@media only screen and (max-width: 1081px){
+    .content{
+        display: grid;
+        margin-left: 15%;
+        margin-right: 10%;
+        grid-template-columns: 50% 50% ;
+        grid-gap: 1em;
+    }
+}
+@media only screen and (max-width: 1040px){
+    .navigationbar{
+        display:none;
+    }
+}
+@media only screen and (max-width: 695px){
+    .content{
+        grid-template-columns: 100% ;
+    }
+}
+@media only screen and (max-width: 597px){
+    .content > div > img{
+        height: 80%;
+    }
+}
+.restoname {
+    text-align: center;
+    margin: 250px 150px;
+}
+h1{
+    color: rgb(255, 251, 0);
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
