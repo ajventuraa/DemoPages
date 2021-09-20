@@ -26,7 +26,16 @@ h2{
     text-transform: uppercase;
     font-weight: 800;
     letter-spacing: 3px;
-    line-height: 10px;
+    line-height: 70px;
+    margin-bottom: 100px;
+}
+h3{
+    color: rgb(255, 251, 0);
+    font-size: 75px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 70px;
     margin-bottom: 100px;
 }
 .content p{
@@ -93,4 +102,31 @@ header ul li a.active
 }
 .media-icons a:hover{
     transform: scale(1.5)
+}
+.table-shape{
+    margin: 10px 70px 70px;
+}
+.tablestyle {
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.tablestyle td, .tablestyle th {
+    text-align: center;
+    padding: 18px;
+}
+
+.tablestyle td {
+    border-right: 7px solid black;
+    font-size: 12px;
+}
+.ftablestyle tr:nth-child(even) {
+    background: #F8F8F8;
 }
